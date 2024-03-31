@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "arch",
+    "core",
+    "device",
+    "fs",
+    "net",
+    "sim",
+    "startup",
+    "sys",
+]
+
+resolver = "2"

@@ -1,0 +1,18 @@
+[package]
+name = "osfmk-core"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+
+multi_core = []
+load_balance = [ "multi_core" ]
+
+preemptive = []
+
+numa = []
+
+multi_thread = []
+
+[dependencies]
