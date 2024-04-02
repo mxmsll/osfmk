@@ -1,3 +1,5 @@
+use crate::task::Task;
+
 pub enum ThreadState {
     New,
     Ready,
@@ -6,6 +8,6 @@ pub enum ThreadState {
     Dead,
 }
 
-pub trait Thread {
+pub trait Thread: Task {
     fn current_state(&self) -> ThreadState;
 }

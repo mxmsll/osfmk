@@ -6,13 +6,11 @@ edition = "2021"
 [features]
 default = []
 
-multi_core = []
 load_balance = [ "multi_core" ]
-
-preemptive = []
-
-numa = []
-
+mmu = []
+multi_core = []
 multi_thread = []
+numa = []
+preemptive = []
 
 [dependencies]
